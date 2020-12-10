@@ -13,3 +13,11 @@ main {
   display: grid;
   grid-template-columns: 25% 50% 25%;
 }
+#left, #right {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  padding: 8px;
+}
+#middle {
+  padding: 8px;
+}
