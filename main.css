@@ -25,3 +25,19 @@ main {
   max-width: 1000px;
   margin: 0 auto;
 }
+img {
+  max-width: 100%;
+}
+#left {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 5fr 1fr;
+}
+#right {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 3fr 4fr 3fr;
+}
+.border {
+  border: 3px solid black;
+}
